@@ -63,9 +63,4 @@ Each topic folder may contain:
 * Docker
 * DevOps
 * Generative AI
-
-Author
-
-* Kattamuri Sanjana Priya Darshini
-* B.Tech CSE
-* Vignan University
+  
