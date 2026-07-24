@@ -1,6 +1,5 @@
 using System.Net;
 using System.Text.Json;
-
 namespace LoggingApi.Middleware
 {
     // Centralized exception handling for the whole request pipeline.
@@ -15,7 +14,6 @@ namespace LoggingApi.Middleware
             _next = next;
             _logger = logger;
         }
-
         public async Task InvokeAsync(HttpContext context)
         {
             try
